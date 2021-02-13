@@ -1,1 +1,112 @@
-style.css
+* {
+    font-family: 'Poppins', sans-serif;
+}
+/* LEARN IT!!!!!1111 */
+.container {
+    max-width: 1133px;
+    margin: 0 auto;
+}
+/* LEARN IT!!!!!1111 */
+nav .container {
+    display: flex;
+    align-items: baseline;
+}
+nav {
+    background: #E5E5E5;
+    border-radius: 100px 100px 0px 0px;
+    display: flex
+}
+i {
+    margin-right:26px ;
+}
+
+p {
+    font-weight: 700;
+    justify-content: end;
+}
+span {
+    margin-right: 15px;
+}
+.navigation {
+    margin-top:15px;
+    color: #22262A;
+}
+.icons {
+    margin-top: 13px;
+    align-items: flex-end;
+}
+.help-logo {
+    margin-left:146px
+}
+.help-icon {
+    margin-right: 146px;
+}
+
+
+
+
+
+
+
+    
+    .container-collusion {
+        max-width: 1133px;
+        margin: 0 auto;
+    }
+    .signatures span {
+        background-color:#22262A;
+        color:#FFFF;
+        padding:4px 29px 4px 28px;
+    }
+    .signatures h2 {
+        margin: 0;
+    }
+    .signatures p {
+        margin-top:0
+    }
+    .signatures h1 {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 120px;
+        margin: 0;
+    }
+    .hero {
+        height: 800px;
+        background-image:url("image/fashion.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .signatures {
+        position: absolute;
+        max-width: 453px;
+        right: 0;
+        bottom: 0;
+        padding-right: 231px;
+        padding-bottom: 163px;
+    }
+
+
+
+
+
+
+
+.preview {
+    margin-top: 123px;
+}
+.container-preview {
+    max-width: 1133px;
+    margin: 0 auto;
+    display: flex;
+}
+.first-column,.second-column {
+    justify-content: baseline;
+}
+.man-two {
+    height:563px
+}
+.girl-two,.girl-one {
+    display: inline-block;
+    width: 46.4%;
+}
