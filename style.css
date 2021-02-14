@@ -22,7 +22,6 @@ i {
 
 p {
     font-weight: 700;
-    justify-content: end;
 }
 span {
     margin-right: 15px;
@@ -99,14 +98,66 @@ span {
     max-width: 1133px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 114px;
 }
-.first-column,.second-column {
-    justify-content: baseline;
+.second-column span {
+    background-color: #FFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 321px;
+    margin-top: 514px;
+    padding:4px 24px 4px 25px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    color:#22262A;
+    z-index: 3;
 }
+.second-column {
+    position: relative;
+    
+}
+
 .man-two {
-    height:563px
+    height:580px; 
+    position: absolute;
+}
+.rectangle {
+    z-index:2;
+    position: relative;
+    height: 580px;
+}
+.man-one {
+    margin-bottom: 22px;
+    margin-right: 25px;
+}
+.girl-one {
+    margin-right: 25px;
 }
 .girl-two,.girl-one {
     display: inline-block;
-    width: 46.4%;
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-women {
+    max-width: 1133px;
+    margin: 0 auto;
 }
