@@ -334,6 +334,7 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-position-x: right;
 }
 .container-tachen {
     position: absolute;
